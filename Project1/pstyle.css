@@ -1,0 +1,154 @@
+/*stly for body*/
+body {
+		background-color: #F5FFFA ;
+		height:100%; margin:0; padding:0;
+		}
+/*overall style for outer container*/
+div
+{
+background:white;
+position:absolute; left:330px; 
+text-align:center;
+width:900px;
+height:773px;
+padding:2px;
+
+border:1px solid #1E1E1E;
+margin:0px;
+}
+
+/*container for title*/
+#titlediv
+{
+letter-spacing:2px;
+background:#F5FFFA ;
+position:absolute; left:1px;
+width:897px;
+height:50px;
+text-align:center;
+padding:0px;
+margin:1px;
+font-family:helvetica;
+font-size:17px;
+}
+/*container div for images*/
+#imagediv
+{
+position:absloute; left:1px; top:55px;
+width:887px;
+height:170px;
+padding:5px;
+margin:2px;
+}
+/*style for images*/
+img
+{
+float:left;
+width:292px;
+height:170px;
+margin:1px;
+}
+/*style for navigation*/
+#menu {
+       position:absolute; top:240px; left:2px;
+		
+		background: #666;
+		width:892px;
+		margin:2px;
+		font-family:helvetica;
+		margin-bottom:10px;
+	}
+	/*menu items*/
+		#menu,#menu li { height:30px; }
+		
+		#menu ul {
+			margin:0px; 
+			padding:0px;
+			
+		}
+		/*stlye for li items */
+				#menu li {
+				
+					display:block; 
+					float:left; 
+					list-style:none;
+					line-height:30px;
+					margin-left:20px; 
+					margin-right:35px;
+					position:relative;			
+				}
+				
+					#menu a {
+						color:#fff;
+						height:25px;
+				line-height: 25px;
+				text-indent: 10px;					
+						text-decoration:none;
+					}
+					/*style specification during hover over menu items*/
+					#menu a:hover { text-decoration:none; }
+					#menu li:hover {
+					opacity:0.9;
+  filter:alpha(opacity=90);
+	            background:#EE5C42; 
+	            position: relative;
+				padding: 6px 8px 4px 8px;
+	        }
+					/*style for sub menu items*/
+					#menu li ul { display:none; }
+					#menu li:hover ul {
+						background-color:#666;
+						border-top: 1px solid #8F8E8E;
+						display:block; 
+						left:-10px; 
+						position:absolute; 
+						top:30px;
+						width:230px;						 					
+					}	
+/*container div for the content*/
+#content
+{
+position:absolute; top:280px; left:0px;
+width:797px;
+height:390px;
+padding:50px;
+margin:2px;
+}
+/*For Image inside content*/
+#content img
+{
+width:350px;
+height:200px;
+margin: 20px;
+float:right;
+}
+/*for p inside content*/
+#content p
+{
+flaot:left;
+text-align:justify;
+font-size:11pt;
+font-family:helvetica;
+}
+/*container div for about page*/
+#abtdiv
+{
+position:absolute; top:280px; left:0px;
+width:887px;
+height:481px;
+padding:5px;
+margin:2px;
+font-size:11pt;
+font-family:helvetica;
+}
+/*headings in content*/
+#content h
+{
+font-family:helvetica;
+}
+/*style for table elements in hotel page*/
+table { 
+  border-spacing: 20px; 
+  font-family:helvetica;
+  font-size:11pt;
+} 
