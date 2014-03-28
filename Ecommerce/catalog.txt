@@ -1,0 +1,19 @@
+Battlefield 3 | First Person Shooter in modern military ambience | 60.00 | 30 | B_Image | 0
+Max Payne 3 | Third person action & adventure with slow mo bullet | 55.00 | 35 | M_Image | 50.00
+Mass Effect 3 | Role Playing action $ adventure in the galaxy ambience | 50.00 | 40 | ME_Image | 0
+Hitman Absolution | The original assassin is back ! Third person stealth & action | 65.00 | 10 | H_Image | 0
+Assassin Creed Revealations | The best selling third person action adventure of the year | $50.00 | 14 | ACR_Image | 0
+Saints Row 3 | The best of the Open World Games with much more action and fun now | 40.00 | 15 | SR_Image | 36.00
+COD MW 3 | Captian Price and Soap is back in action for saving the world from chaos | 45.00 | 60 | COD_Image | 0
+Need For Speed The Run | The best of the street racing thrilling experience | 40.00 | 25 | NFS_Image | 0
+Hitman Absolution | The original assassin is back ! Third person stealth & action | 65.00 | 10 | H_Image | 0
+Assassin Creed Revealations | The best selling third person action adventure of the year | 45.00 | 14 | ACR_Image | 0
+Batman Arkham City | Explore the Arkham city as Batman itself with cool gadgets and numerous villians | 56.00 | 60 | BA_Image | 50.00
+Blood Stone | James Bond is back with full of action, close encounters and breathtaking car chases | 50.00 | 50 | BL_Image | 0
+Prototype 2 | Explore the new powers of Prototype virus as a new badass hero Heller and defeat Alex Mercer | 52.00 | 45 | P_Image | 0
+Ghost Recon FS | Stealth gameplay as never before, take part in deadly Ghost Recon team with cloak tech | 48.00 | 40 | GR_Image | 0
+Far Cry 3 | Do you know the definition of insanity?.... Ubisoft's action FPS franchise is back | 47.00 | 35 | FR_Image | 0
+Mirror's edge | Best free running game ever released, explore the parkour and some action | 42.00 | 30 | MR_Image | 0
+Alan Wake | The best selling horror game. Dont miss the thrilling experiance as Alan | 40.00 | 32 | AW_Image | 0
+Sniper Ghost Warrior | Bullet cam has never been better before. Experiance the real sniper warrior | 50.00 | 31 | SG_Image | 0
+Crysis 2 | Nanosuit, Cryengine and what else to say. Experiance the real time graphics with nano suit | 45.00 | 32 | C2_Image | 0
