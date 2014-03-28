@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Twitter API Project</title>
+		 <script src="Scripts/project2.js" type="text/javascript"></script>
+		 <script src="Scripts/p2Utils.js" type="text/javascript"></script>
+		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>-->
+		<script type="text/javascript" src="Scripts/jquery.min.js"></script>
+		 <script type="text/javascript">
+		  document.onready = function() {
+		  initCounterDisplay();
+		  }
+		  </script>
+		 <link type="text/css" href="p2style.css" rel="stylesheet" media="all">
+	</head>
+
+	<body>
+		<div id="title">
+			<h2>Twitter API</h2>
+		</div>
+
+		<div id="input">
+			<input type="text" id="username" name="username" placeholder="Enter a twiiter user name"/>
+			<button type="button" id="submit" name="submit" onclick="getDetails()">Get Details</button>
+		</div>
+
+      
+      <div id="rateDetials">
+	 <p> Request Allowed Per Session: 150/hour <p>
+	  Request Made this Session: <span id="rate"></span>
+	  </div>
+     
+		<section id="userDetails" title="User Details" >
+				<div id="user">
+					User Info
+				</div>
+			</section>
+     
+	   
+	   <section id="friendDetails" title="friend Details" >
+	    <h2> Top 10 Friends </h2>
+	           <div id="friends">
+			      Top 10 Friends
+			       </div> 
+	   </section>
+     
+        <section id="followerDetails" title="follower Details" >
+		<h2> Top 10 Followers </h2>
+	           <div id="followers">
+			      Top 10 Followers
+			       </div> 
+	   </section>	 
+	  
+	</body>
+</html>
+
