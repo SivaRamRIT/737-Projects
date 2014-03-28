@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link type="text/css" href="style.css" rel="stylesheet" media="all">
+<script  type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD_fpmbLzKJdSbDNtoiuO75vAQ19K0E6AQ&amp;sensor=false"></script>
+<script type="text/javascript" src="Scripts/Twitter.js"></script>
+	<script type="text/javascript" src="Scripts/IMDB.js"></script>
+	<script type="text/javascript" src="Scripts/Googlemap.js"></script>
+	<script type="text/javascript" src="Scripts/jquery.min.js"></script>
+		<title>API Mash Project</title>
+
+<script>
+
+	  
+function getDetails()
+{
+
+ var userName = document.getElementById("moviename").value;
+ 	 if(userName != ''){
+	document.getElementById("info").innerHTML = " ";
+	imdbAPI(userName);
+	 }
+	 else {
+	 alert("Please enter a Movie name");
+	 }
+	 
+}
+
+
+</script>
+</head>
+
+<body onload="initialize()">
+<div id="input">
+    <h3>iMDB API, Twitter Search API, Google Map API</h3>
+			<input type="text" id="moviename" name="moviename" placeholder="Enter a Movie Name"/>
+			<button type="button" id="submit" name="submit" onclick="getDetails()">Get Details</button>
+			<p>Enter a movie name of your choice to start. For instance gladiator.
+		</div>
+
+<h2>Movie Information</h2>		
+		<div id="movie">
+  <h4>Movie Information</h4>
+ <section id="movieinfo">
+</section>
+</div>
+
+ <h2>Recent tweets by the Actor of the movie</h2>
+<div id="info">
+<h4>Recent tweets by the Actor of the movie</h4>
+<section id="info2">
+</section>
+</div>
+
+
+
+<div id="map">
+<h2>Filming Location</h2>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+</div>
+
+</body>
+</html>
