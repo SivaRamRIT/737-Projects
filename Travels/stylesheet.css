@@ -1,0 +1,130 @@
+body {
+   
+	background-image:url('awesome3.jpg');
+	
+	background-repeat:no-repeat;
+	
+    font-family: Arial,sans-serif;
+    font-variant: small-caps;
+	color:black;
+}
+
+
+h1{
+    color: #2F4F4F;
+	/*color: white;*/
+    background-color: white;
+	
+    height: 2em;
+	/*height: 150px;*/
+    margin: 0;
+    font-family: Verdana;
+    padding: 1%;
+    text-align: center;
+    border: 0.2em outset #d8dcdf;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BA0909), to(#fff));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #FFF68F, #fff);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #FFF68F, #FA8258);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #FFF68F , #fff);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #FFF68F, #fff);
+}
+
+h2 {
+    border: 1px solid #e3a1a1;
+    
+    /*color: #000;*/
+	color: white;
+    font-weight: bold;
+    
+    height: 2em;
+    font-family: Verdana;
+    text-align: center;
+    
+}
+
+form {
+    margin : auto;
+    float: left;
+    border: 2px inset #d8dcdf;
+	color: #FFD700;
+}
+
+/***********css for book-trips table***********/
+#tableOutput
+{
+    margin: 1% 1%;
+    border-collapse: collapse; 
+    box-shadow:  -1px 0px 18px #151515;
+    -webkit-box-shadow:  -1px 0px 18px #151515;
+    -mox-box-shadow:  8px -1px 18px #151515;
+	color: #151515;
+	/* box-shadow:  -1px 0px 18px #848484;*/
+}
+
+#tableOutput th 
+{
+	/*background-color: #BA0909;*/
+		/*background-color: #FF6347;*/
+	/*color : #fff;*/
+	color:#2F4F4F;
+	letter-spacing: 0.1em;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#BA0909), to(#fff));
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #458B74, #fff);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #458B74, #FA8258);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #458B74, #fff);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #458B74, #fff);
+}
+
+#tableOutput td
+{
+	/*background-color: #E6E6E6;*/
+	background-color: #FF6347;
+	
+	color: #151515;
+	/*color: #FF6347;*/
+	
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #FFEFDB, #fff);
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #FFEFDB, #fff);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #FFEFDB, #fff);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #FFEFDB, #fff);
+	
+	
+	
+	border-top-color:#E6E6E6;
+	border-left-color: #D8D8D8;
+	border-bottom-color: #D1CECE;
+	border-right-color: #D5D3D3;
+	
+	
+}
+#tableOutput th :hover {
+					opacity:0.9;
+  filter:alpha(opacity=90);
+	            background:#EE5C42; 
+	            position: relative;
+				padding: 6px 8px 4px 8px;
+	        }
+/**************end of book trips table ***********/
+
+
+
+
+a{
+ color: #fff;
+}
+
+.msg{
+	color: yellow;
+}
